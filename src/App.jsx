@@ -5,7 +5,7 @@ import reactLogo from './assets/react.svg';
 import './App.css';
 
 function App() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   function toggle() {
     setDarkMode((prevMode) => !prevMode);
